@@ -1,0 +1,103 @@
+#background {
+    height: 725px; 
+}
+
+body {
+    background-color: rgb(248, 246, 248);
+}
+
+header {
+    background-color: rgb(80, 80, 102);
+}
+.logo {
+    display: block;
+    margin-right: auto;
+}
+nav a:hoover {
+    background-color: black;
+}
+
+.icon {
+    width: 80px;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+div {
+    max-width: fit-content;
+}
+section {
+    text-align: center;
+    color: #0a0909;
+    text-decoration: none;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}    
+footer {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+#logo-link {
+    display: block;
+    margin-left: auto;
+    height: 200px;
+    width: 100px;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+.book {
+    text-decoration: none;
+}
+#hero-box {
+    width: auto;
+}
+#hero-msg {
+    text-align: center;
+}
+#hero-img {
+    align-content: center;
+}
+#hero-msg {
+    align-content: center;
+}
+.home-title {
+    align-content: center;
+}
+.button-box {
+    align-content: center;
+}
+.home-grid {
+    align-content: center;
+}
+.rivers-card {
+    align-content: center;
+} 
+.card-img {
+    display: block;
+    margin-right: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+.book, .join {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}    
+.msg {
+    background-color: antiquewhite;
+    align-content: center;
+}
