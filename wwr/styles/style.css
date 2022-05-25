@@ -145,7 +145,6 @@ nav a {
 #hero-msg {
     text-align: center;
 }
-}
 #hero-msg {
     align-content: center;
 }
@@ -160,6 +159,7 @@ nav a {
     align-content: center;
 }
 .rivers-card {
+    display: block;
     align-content: center;
     margin: 200px 0;
 } 
