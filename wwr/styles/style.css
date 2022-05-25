@@ -1,11 +1,38 @@
 #background {
     height: 725px; 
 }
+.logo {
+    display: block;
+    margin-right: 95%;
+    height: 20%;
+    width: 15%;
+}
+h4 {
+    align-content: center;
+}
+img {
+    display: block;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
 
+img {
+    border: 5px solid rgb(109, 15, 197);
+  }
+  body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h1, h4 {
+    display: block;
+    align-items: center;
+}
 body {
     background-color: rgb(248, 246, 248);
 }
-
 header {
     background-color: rgb(80, 80, 102);
 }
@@ -31,17 +58,67 @@ section {
     color: #0a0909;
     text-decoration: none;
 }
+.flex-container{ 
+    display: flex;
+    flex-direction: row;
+   padding-left: 40%;
+
+}
+.last-flex-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    background-color: antiquewhite;
+    align-items: center;
+    width: 35%;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.home-title {
+    display: block;
+    align-content: center;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}        
+            
+div {
+    display: flex;
+    align-items: baseline;
+  }
+.footer-flex-container{
+    display: flex;
+    flex-direction: column;
+}
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }    
 footer {
     background-color: antiquewhite;
     display: flex;
     align-items: center;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+.msg p {
+    padding-bottom: 15px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 #logo-link {
+    padding-top: 5px;
     display: block;
     margin-left: auto;
     height: 200px;
@@ -51,6 +128,7 @@ footer {
     text-align: center;
 }
 main section {
+    box-sizing: border-box;
     text-align: center;
 }
 nav a {
@@ -73,6 +151,7 @@ nav a {
 }
 .home-title {
     align-content: center;
+    margin-top: 10px; 
 }
 .button-box {
     align-content: center;
@@ -82,6 +161,7 @@ nav a {
 }
 .rivers-card {
     align-content: center;
+    margin: 200px 0;
 } 
 .card-img {
     display: block;
@@ -89,13 +169,20 @@ nav a {
     margin-right: auto;
     width: 400px;
     height: 400px;
+    border: 10px solid #0a0a0a;
 }
 .book, .join {
     text-align: center;
-    color: #fcfbfb;
+    color: #161313;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }    
 .msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
     background-color: antiquewhite;
     align-content: center;
+    padding: 35px;
 }
